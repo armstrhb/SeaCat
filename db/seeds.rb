@@ -13,3 +13,11 @@ ice_king = Person.create({name: 'Ice King', living: true, age: 1044, description
 lich = Person.create({name: 'The Lich', living: true, age: 1000, description: 'A powerful undead being and a major antagonist.'})
 lemongrab = Person.create({name: 'Lemongrab', living: true, age: 1, description: 'The earl of Castle Lemongrab.'})
 flame_princess = Person.create({name: 'Flame Princess', living: true, age: 16, description: 'Princess and ruler of the Fire Kingdom.'})
+
+weapons = ItemType.create({name: 'Weapons'})
+
+scarlet = Item.create({name: 'Scarlet, the Golden Sword of Battle', description: "Finn's first sword. Scarlet is dented, chipped, and dirty. Its hilt is black with some worn leather grip-straps and a red gemstone in the pommel.", item_type: weapons})
+root_sword = Item.create({name: 'Root Sword', item_type: weapons, description: "Finn's second sword, gaining its name from its root like handle."})
+demon_blood_sword = Item.create({name: 'Demon Blood Sword', item_type: weapons, description: "Finn's third sword. Infused with demon blood."})
+grass_sword = Item.create({name: 'Grass Sword', item_type: weapons, description: "Finn's fourth sword, bought for three dollars from the Grassy Wizard."})
+finn_sword = Item.create({name: 'Finn Sword', item_type: weapons, description: "Finn's fifth sword. Created when Finn prevented himself from waking up Jake to save Prismo."})
